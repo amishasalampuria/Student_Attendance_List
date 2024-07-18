@@ -14,7 +14,6 @@ const App = () => {
   return (
 
     <div>
-      {/* <UserData /> */}
       <Routes>
         <Route path='/' element={<Users />} />
         <Route path="/create" element={<CreateStudent />} />
